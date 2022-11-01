@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5 {
 
 .module {
     padding: 1rem;
-    background: rgb(170, 166, 166);
+    background: #ddd;
   }
 .module h2 {
-    background: #90a4ae;
+    background: #ddd;
     margin: -1rem -1rem 1rem -1rem;
     padding: 1rem;
   }
@@ -38,10 +38,12 @@ h1, h2, h3, h4, h5 {
   }
   
   body {
-    background: #ddd;
+    background-color: #ddd;
     margin: 1rem;
     padding: 1rem;
     width: 650px;
     margin: 2rem auto;
     font-family: "Open Sans", sans-serif;
   }
+ 
+  <--TODO fix border background colors mixing in boxes -->
