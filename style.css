@@ -20,6 +20,28 @@ h1, h2, h3, h4, h5 {
     color: rgb(99, 79, 75);
 }
 
-.carrotcake, .pizza-crust, .lasagna, .oatmeal, .pesto {
-    text-align: center;
+.carrotcake, .pizza-crust, .lasagna, .oatmeal, .pesto, .carrotcaketwo {
+  text-align: center;
 }
+
+.module {
+    padding: 1rem;
+    background: rgb(170, 166, 166);
+  }
+.module h2 {
+    background: #90a4ae;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 1rem;
+  }
+.module :last-child {
+    margin-bottom: 0;
+  }
+  
+  body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+  }
