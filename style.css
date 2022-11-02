@@ -28,22 +28,26 @@ h1, h2, h3, h4, h5 {
     padding: 1rem;
     background: #ddd;
   }
-.module h2 {
+.module h1 {
     background: #ddd;
     margin: -1rem -1rem 1rem -1rem;
     padding: 1rem;
   }
+.module h2, h3, h4, h5, p, a, strong, .carrotcake, .pizza-crust, .lasagna, .oatmeal, .pesto, .carrotcaketwo {
+  background-color: #ddd;
+
+}
 .module :last-child {
     margin-bottom: 0;
   }
-  
+.module ul, li, ol {
+  background-color: #ddd;
+}
   body {
     background-color: #ddd;
     margin: 1rem;
     padding: 1rem;
-    width: 650px;
+    width: 700px;
     margin: 2rem auto;
     font-family: "Open Sans", sans-serif;
   }
- 
-  <--TODO fix border background colors mixing in boxes -->
