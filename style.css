@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
     margin: -1rem -1rem 1rem -1rem;
     padding: 1rem;
   }
-.module h2, h3, h4, h5, p, a, strong, .carrotcake, .pizza-crust, .lasagna, .oatmeal, .pesto, .carrotcaketwo {
+.module h2, h3, h4, h5, p, a, strong, div, .carrotcake, .pizza-crust, .lasagna, .oatmeal, .pesto, .carrotcaketwo {
   background-color: #ddd;
 
 }
@@ -52,6 +52,11 @@ h1, h2, h3, h4, h5 {
     font-family: "Open Sans", sans-serif;
   }
 
-  #title {
+  #title, .link {
     border: thick double rgb(185, 175, 178);
+  }
+
+  .container {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    justify-content: space-around;
   }
